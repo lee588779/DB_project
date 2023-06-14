@@ -1,0 +1,19 @@
+
+/*테이블 마지막줄 밑줄*/
+line{border-bottom: 1px solid gray;}
+
+/* 모든 리스트의 블릿 기호 표시 제거 */
+ul{list-style: none;}
+ 
+/* <a>요소의 기본 밑줄 제거 */
+a{display: inline-block; text-decoration: none; color: #333333;}
+
+/* 회원가입/로그인 글씨를 오른쪽 배치할 때 absolute 포지션 사용하기 위해 부모뷰는 relative여야 함. */
+#top{ width: 1000px; height: 80px; margin: 0 auto; position: relative; }
+ 
+/* 로고 제목 위치와 폰트 사이즈 */
+#top h3{position: absolute; top: 25px; left: 40px; font-size: 16px;}
+
+/* 회원가입/로그인 글씨 위치 */
+#top #top_menu{position: absolute; top: 30px;right: 60px;}
+#top #top_menu li{display: inline-block;}
